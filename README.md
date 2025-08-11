@@ -77,20 +77,80 @@ Auth
 
 
 Companies
-Method	Endpoint	            Description
-GET	    /companies	            List companies
-POST	/companies	            Create new company
-PUT	    /companies/{id}	        Update company
-DELETE	/companies/{id}	        Delete company
-POST	/companies/{id}/switch	Set active company
+<!-- Companies API Endpoints Table -->
+<table style="width:100%; border-collapse:collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="text-align:left; padding:8px; border-bottom:2px solid #333;">Method</th>
+      <th style="text-align:left; padding:8px; border-bottom:2px solid #333;">Endpoint</th>
+      <th style="text-align:left; padding:8px; border-bottom:2px solid #333;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">GET</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/companies</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">List companies</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">POST</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/companies</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">Create new company</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">PUT</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/companies/{id}</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">Update company</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">DELETE</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/companies/{id}</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">Delete company</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;">POST</td>
+      <td style="padding:8px;">/companies/{id}/switch</td>
+      <td style="padding:8px;">Set active company</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 Projects (Active Company Only)
-Method	Endpoint	        Description
-GET	    /projects	        List projects in active company
-POST	/projects	        Create project
-PUT	    /projects/{id}	    Update project
-DELETE	/projects/{id}	    Delete project
+<!-- Projects API Endpoints Table -->
+<table style="width:100%; border-collapse:collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="text-align:left; padding:8px; border-bottom:2px solid #333;">Method</th>
+      <th style="text-align:left; padding:8px; border-bottom:2px solid #333;">Endpoint</th>
+      <th style="text-align:left; padding:8px; border-bottom:2px solid #333;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">GET</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/projects</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">List projects in active company</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">POST</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/projects</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">Create project</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">PUT</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/projects/{id}</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">Update project</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;">DELETE</td>
+      <td style="padding:8px;">/projects/{id}</td>
+      <td style="padding:8px;">Delete project</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 **Rules as per Assignment**
