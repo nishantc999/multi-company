@@ -6,7 +6,7 @@ All operations (like creating projects) happen **inside the currently active com
 
 ---
 
-## 📌 Features
+## Features
 - **User Authentication** using Laravel Sanctum (Register, Login, Logout)
 - **Company CRUD** (per user)
 - **Active Company Management** (`user_active_companies` table)
@@ -40,11 +40,39 @@ http://127.0.0.1:8000/api/
 --------------------------------------------------------------------------
 **API Endpoints** 
 Auth
-Method	Endpoint	Description
-POST	/register	User registration
-POST	/login	    User login
-POST	/logout    	User logout
-GET	    /user	    Get logged-in user
+<!-- API Endpoints Table -->
+<table style="width:100%; border-collapse:collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr>
+      <th style="text-align:left; padding:8px; border-bottom:2px solid #333;">Method</th>
+      <th style="text-align:left; padding:8px; border-bottom:2px solid #333;">Endpoint</th>
+      <th style="text-align:left; padding:8px; border-bottom:2px solid #333;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">POST</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/register</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">User registration</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">POST</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/login</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">User login</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">POST</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">/logout</td>
+      <td style="padding:8px; border-bottom:1px solid #ddd;">User logout</td>
+    </tr>
+    <tr>
+      <td style="padding:8px;">GET</td>
+      <td style="padding:8px;">/user</td>
+      <td style="padding:8px;">Get logged-in user</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
