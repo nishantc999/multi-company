@@ -1,4 +1,4 @@
-# Multi-Company API (Laravel 12 + Sanctum)
+# Multi-Company API (Laravel 12 + breeze+ Sanctum)
 
 This is a **Laravel 12 API project** built as per the technical assignment requirements.  
 The system supports multiple companies per user, with the ability to **switch the active company**.  
