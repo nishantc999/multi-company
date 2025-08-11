@@ -167,7 +167,11 @@ Projects (Active Company Only)
 6. All APIs must be tested via Postman
 
 
+
+**Postman Collection Public Link**
+You can directly import the API collection in Postman using the link below:
+https://nishantc999-4594773.postman.co/workspace/Nishant-Choudhary's-Workspace~a6135bd3-8128-46b3-8f1e-25f3184aeec6/collection/47481924-ef794929-6f60-4716-b8e0-bfb945e0c8e6?action=share&creator=47481924
+
 **Postman Testing Guide**
 1. Set Authorization: Bearer <token> in headers for all authenticated requests.
 2. Use Content-Type: application/json when sending raw JSON body.
-
